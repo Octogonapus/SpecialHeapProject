@@ -1,0 +1,1154 @@
+Enter r: Printing heap
+Threshold: 3
+Inserting value 1
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74b320 SuffixMin: 0x74b320
+--[0]{1}(1)
+Inserting value 2
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 1 Addr:0x74b320 SuffixMin: 0x74b320
+--[1]{1}(1)--[0]{1}(1)
+
+--[0]{2}(2)
+Inserting value 3
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74b420 SuffixMin: 0x74b320
+--[0]{3}(3)
+| Head Rank: 1 Addr:0x74b320 SuffixMin: 0x74b320
+--[1]{1}(1)--[0]{1}(1)
+
+--[0]{2}(2)
+Inserting value 4
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74b420 SuffixMin: 0x74b420
+--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+           --[0]{2}(2)
+
+--[1]{3}(3)--[0]{3}(3)
+
+--[0]{4}(4)
+Inserting value 5
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74b550 SuffixMin: 0x74b420
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x74b420 SuffixMin: 0x74b420
+--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+           --[0]{2}(2)
+
+--[1]{3}(3)--[0]{3}(3)
+
+--[0]{4}(4)
+Inserting value 6
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 1 Addr:0x74b550 SuffixMin: 0x74b420
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{6}(6)
+| Head Rank: 2 Addr:0x74b420 SuffixMin: 0x74b420
+--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+           --[0]{2}(2)
+
+--[1]{3}(3)--[0]{3}(3)
+
+--[0]{4}(4)
+Inserting value 7
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74b650 SuffixMin: 0x74b420
+--[0]{7}(7)
+| Head Rank: 1 Addr:0x74b550 SuffixMin: 0x74b420
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{6}(6)
+| Head Rank: 2 Addr:0x74b420 SuffixMin: 0x74b420
+--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+           --[0]{2}(2)
+
+--[1]{3}(3)--[0]{3}(3)
+
+--[0]{4}(4)
+Inserting value 8
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 9
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74b7b0 SuffixMin: 0x74b650
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 8
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 1 Addr:0x74b7b0 SuffixMin: 0x74b650
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 7
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74b8b0 SuffixMin: 0x74b650
+--[0]{7}(7)
+| Head Rank: 1 Addr:0x74b7b0 SuffixMin: 0x74b650
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 6
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74b8b0 SuffixMin: 0x74b650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 5
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74b9e0 SuffixMin: 0x74b650
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x74b8b0 SuffixMin: 0x74b650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 4
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 1 Addr:0x74b9e0 SuffixMin: 0x74b650
+--[1]{4}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x74b8b0 SuffixMin: 0x74b650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 3
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74bae0 SuffixMin: 0x74b650
+--[0]{3}(3)
+| Head Rank: 1 Addr:0x74b9e0 SuffixMin: 0x74b650
+--[1]{4}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x74b8b0 SuffixMin: 0x74b650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+Minimum deleted: 1
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74bae0 SuffixMin: 0x74b650
+--[0]{3}(3)
+| Head Rank: 1 Addr:0x74b9e0 SuffixMin: 0x74b650
+--[1]{4}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x74b8b0 SuffixMin: 0x74b650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                     --[0]{2}(2)
+
+          --[1]{3}(3)--[0]{3}(3)
+
+          --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+sifting
+sifting
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 2
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74bae0 SuffixMin: 0x74b650
+--[0]{3}(3)
+| Head Rank: 1 Addr:0x74b9e0 SuffixMin: 0x74b650
+--[1]{4}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x74b8b0 SuffixMin: 0x74b650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{}(2)--[2]{2}(2)--[1]{2}(2)
+
+          --[1]{3}(3)--[0]{3}(3)
+
+          --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+sifting
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 3
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74bae0 SuffixMin: 0x74b650
+--[0]{3}(3)
+| Head Rank: 1 Addr:0x74b9e0 SuffixMin: 0x74b650
+--[1]{4}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x74b8b0 SuffixMin: 0x74b650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{}(3)--[2]{3}(3)--[0]{3}(3)
+
+          --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+sifting
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 3
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74bae0 SuffixMin: 0x74bae0
+--[0]{}(3)
+| Head Rank: 1 Addr:0x74b9e0 SuffixMin: 0x74b650
+--[1]{4}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x74b8b0 SuffixMin: 0x74b650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{4}(4)--[2]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+sifting
+Fixing minlists
+Minimum deleted: 4
+Printing heap
+Threshold: 3
+| Head Rank: 1 Addr:0x74b9e0 SuffixMin: 0x74b650
+--[1]{4}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x74b8b0 SuffixMin: 0x74b650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{}(4)--[2]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 4
+Printing heap
+Threshold: 3
+| Head Rank: 1 Addr:0x74b9e0 SuffixMin: 0x74b9e0
+--[1]{}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x74b8b0 SuffixMin: 0x74b650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 5
+Printing heap
+Threshold: 3
+| Head Rank: 1 Addr:0x74b9e0 SuffixMin: 0x74b650
+--[1]{5}(5)
+| Head Rank: 2 Addr:0x74b8b0 SuffixMin: 0x74b650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 1
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[0]{1}(1)
+| Head Rank: 1 Addr:0x74b9e0 SuffixMin: 0x74b650
+--[1]{5}(5)
+| Head Rank: 2 Addr:0x74b8b0 SuffixMin: 0x74b650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x74b650 SuffixMin: 0x74b650
+--[3]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 3
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{1}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                 --[0]{3}(3)
+
+                      --[1]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 5
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74bcf0 SuffixMin: 0x74bb60
+--[0]{5}(5)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{1}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                 --[0]{3}(3)
+
+                      --[1]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 7
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 1 Addr:0x74bcf0 SuffixMin: 0x74bb60
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{1}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                 --[0]{3}(3)
+
+                      --[1]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 9
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74bdf0 SuffixMin: 0x74bb60
+--[0]{9}(9)
+| Head Rank: 1 Addr:0x74bcf0 SuffixMin: 0x74bb60
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{1}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                 --[0]{3}(3)
+
+                      --[1]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 4
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bb60
+--[2]{4}(4)--[1]{4}(4)--[0]{4}(4)
+
+           --[0]{9}(9)
+
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{1}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                 --[0]{3}(3)
+
+                      --[1]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 2
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74bf20 SuffixMin: 0x74bb60
+--[0]{2}(2)
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bb60
+--[2]{4}(4)--[1]{4}(4)--[0]{4}(4)
+
+           --[0]{9}(9)
+
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{1}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                 --[0]{3}(3)
+
+                      --[1]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+Minimum deleted: 1
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74bf20 SuffixMin: 0x74bb60
+--[0]{2}(2)
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bb60
+--[2]{4}(4)--[1]{4}(4)--[0]{4}(4)
+
+           --[0]{9}(9)
+
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                --[0]{3}(3)
+
+                     --[1]{5}(5)
+
+          --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+          --[1]{8}(8)--[0]{8}(8)
+
+          --[0]{9}(9)
+
+--[3]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+sifting
+sifting
+sifting
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 2
+Printing heap
+Threshold: 3
+| Head Rank: 0 Addr:0x74bf20 SuffixMin: 0x74bf20
+--[0]{}(2)
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bb60
+--[2]{4}(4)--[1]{4}(4)--[0]{4}(4)
+
+           --[0]{9}(9)
+
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{3}(3)--[3]{3}(3)--[2]{3}(3)--[1]{3}(3)
+
+                      --[1]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+sifting
+Fixing minlists
+Minimum deleted: 3
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bb60
+--[2]{4}(4)--[1]{4}(4)--[0]{4}(4)
+
+           --[0]{9}(9)
+
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{}(3)--[3]{3}(3)--[2]{3}(3)--[1]{3}(3)
+
+                     --[1]{5}(5)
+
+          --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+          --[1]{8}(8)--[0]{8}(8)
+
+          --[0]{9}(9)
+
+--[3]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+sifting
+sifting
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 4
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bdf0
+--[2]{}(4)--[1]{4}(4)--[0]{4}(4)
+
+          --[0]{9}(9)
+
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{5}(5)--[3]{5}(5)--[2]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+sifting
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 5
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bb60
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{}(5)--[3]{5}(5)--[2]{5}(5)
+
+          --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+          --[1]{8}(8)--[0]{8}(8)
+
+          --[0]{9}(9)
+
+--[3]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+sifting
+sifting
+sifting
+Fixing minlists
+sifting
+sifting
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 5
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bdf0
+--[2]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{6}(6)--[3]{6}(6)--[1]{6}(6)
+
+           --[1]{7}(7)--[0]{7}(7)
+
+           --[0]{8}(8)
+
+--[3]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+deleting min
+sifting
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 6
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bb60
+--[2]{7}(7)--[1]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{}(6)--[3]{6}(6)--[1]{6}(6)
+
+          --[1]{7}(7)--[0]{7}(7)
+
+          --[0]{8}(8)
+
+--[3]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+deleting min
+sifting
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 6
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bb60
+--[2]{7}(7)--[1]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{}(6)--[3]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+                     --[0]{7}(7)
+
+          --[1]{8}(8)--[0]{8}(8)
+
+          --[0]{9}(9)
+
+--[3]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+sifting
+sifting
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 7
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bb60
+--[2]{7}(7)--[1]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{}(7)--[3]{7}(7)--[1]{7}(7)
+
+          --[1]{8}(8)--[0]{8}(8)
+
+          --[0]{9}(9)
+
+--[3]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+sifting
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 7
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bb60
+--[2]{7}(7)--[1]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{}(7)--[3]{7}(7)--[0]{7}(7)
+
+          --[0]{8}(8)
+
+--[3]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+deleting min
+sifting
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 7
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bdf0
+--[2]{}(7)--[1]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{8}(8)--[3]{8}(8)
+
+--[3]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+deleting min
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 8
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bb60
+--[2]{9}(9)
+| Head Rank: 4 Addr:0x74bb60 SuffixMin: 0x74bb60
+--[4]{}(8)--[3]{8}(8)
+
+--[3]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+deleting min
+Fixing minlists
+Melding a queue of rank 3
+No melding occured
+Fixing minlists
+Minimum deleted: 8
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bf50
+--[2]{9}(9)
+| Head Rank: 3 Addr:0x74bf50 SuffixMin: 0x74bf50
+--[3]{}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+deleting min
+sifting
+sifting
+Fixing minlists
+Minimum deleted: 9
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bf50
+--[2]{9}(9)
+| Head Rank: 3 Addr:0x74bf50 SuffixMin: 0x74bf50
+--[3]{}(9)
+deleting min
+Fixing minlists
+Minimum deleted: 9
+Printing heap
+Threshold: 3
+| Head Rank: 2 Addr:0x74bdf0 SuffixMin: 0x74bdf0
+--[2]{}(9)
+Printing order of delete mins
+1
+2
+3
+3
+4
+4
+5
+1
+2
+3
+4
+5
+5
+6
+6
+7
+7
+7
+8
+8
+9
+9

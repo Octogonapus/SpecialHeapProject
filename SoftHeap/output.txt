@@ -1,0 +1,1294 @@
+Enter r: Printing heap
+Threshold: 2
+Inserting value 1
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771320 SuffixMin: 0x1771320
+--[0]{1}(1)
+Inserting value 2
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 1 Addr:0x1771320 SuffixMin: 0x1771320
+--[1]{1}(1)--[0]{1}(1)
+
+--[0]{2}(2)
+Inserting value 3
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771420 SuffixMin: 0x1771320
+--[0]{3}(3)
+| Head Rank: 1 Addr:0x1771320 SuffixMin: 0x1771320
+--[1]{1}(1)--[0]{1}(1)
+
+--[0]{2}(2)
+Inserting value 4
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771420 SuffixMin: 0x1771420
+--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+           --[0]{2}(2)
+
+--[1]{3}(3)--[0]{3}(3)
+
+--[0]{4}(4)
+Inserting value 5
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771550 SuffixMin: 0x1771420
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x1771420 SuffixMin: 0x1771420
+--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+           --[0]{2}(2)
+
+--[1]{3}(3)--[0]{3}(3)
+
+--[0]{4}(4)
+Inserting value 6
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 1 Addr:0x1771550 SuffixMin: 0x1771420
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{6}(6)
+| Head Rank: 2 Addr:0x1771420 SuffixMin: 0x1771420
+--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+           --[0]{2}(2)
+
+--[1]{3}(3)--[0]{3}(3)
+
+--[0]{4}(4)
+Inserting value 7
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771650 SuffixMin: 0x1771420
+--[0]{7}(7)
+| Head Rank: 1 Addr:0x1771550 SuffixMin: 0x1771420
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{6}(6)
+| Head Rank: 2 Addr:0x1771420 SuffixMin: 0x1771420
+--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+           --[0]{2}(2)
+
+--[1]{3}(3)--[0]{3}(3)
+
+--[0]{4}(4)
+Inserting value 8
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 9
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x17717b0 SuffixMin: 0x1771650
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 8
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 1 Addr:0x17717b0 SuffixMin: 0x1771650
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 7
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x17718b0 SuffixMin: 0x1771650
+--[0]{7}(7)
+| Head Rank: 1 Addr:0x17717b0 SuffixMin: 0x1771650
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 6
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x17718b0 SuffixMin: 0x1771650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 5
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x17719e0 SuffixMin: 0x1771650
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x17718b0 SuffixMin: 0x1771650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 4
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 1 Addr:0x17719e0 SuffixMin: 0x1771650
+--[1]{4}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x17718b0 SuffixMin: 0x1771650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 3
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771ae0 SuffixMin: 0x1771650
+--[0]{3}(3)
+| Head Rank: 1 Addr:0x17719e0 SuffixMin: 0x1771650
+--[1]{4}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x17718b0 SuffixMin: 0x1771650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                      --[0]{2}(2)
+
+           --[1]{3}(3)--[0]{3}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+Minimum deleted: 1
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771ae0 SuffixMin: 0x1771650
+--[0]{3}(3)
+| Head Rank: 1 Addr:0x17719e0 SuffixMin: 0x1771650
+--[1]{4}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x17718b0 SuffixMin: 0x1771650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                     --[0]{2}(2)
+
+          --[1]{3}(3)--[0]{3}(3)
+
+          --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+list at suffix_min 0x1771650 is empty
+childcount: 3 rank: 3
+sifting on node 0x1771730 with rank 3 and ckey 1
+first recursive sift!
+sifting on node 0x17714d0 with rank 2 and ckey 1
+first recursive sift!
+sifting on node 0x17713a0 with rank 1 and ckey 1
+first recursive sift!
+sifting on node 0x17712f0 with rank 0 and ckey 1
+set to infinity
+perform rotation to satisfy heap property
+rank: 1, r: 2
+Removed child
+end of sift
+rank: 2, r: 2
+end of sift
+rank: 3, r: 2
+second recursive sift!
+sifting on node 0x17714d0 with rank 2 and ckey 2
+first recursive sift!
+sifting on node 0x17713a0 with rank 1 and ckey 2
+set to infinity
+perform rotation to satisfy heap property
+rank: 2, r: 2
+Removed child
+end of sift
+end of sift
+Fixing minlists
+Minimum deleted: 3
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771ae0 SuffixMin: 0x1771650
+--[0]{3}(3)
+| Head Rank: 1 Addr:0x17719e0 SuffixMin: 0x1771650
+--[1]{4}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x17718b0 SuffixMin: 0x1771650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{2}(3)--[2]{3,2}(3)--[0]{3,2}(3)
+
+           --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+Minimum deleted: 2
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771ae0 SuffixMin: 0x1771650
+--[0]{3}(3)
+| Head Rank: 1 Addr:0x17719e0 SuffixMin: 0x1771650
+--[1]{4}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x17718b0 SuffixMin: 0x1771650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{}(3)--[2]{3,2}(3)--[0]{3,2}(3)
+
+          --[0]{4}(4)
+
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+list at suffix_min 0x1771650 is empty
+childcount: 2 rank: 3
+sifting on node 0x1771730 with rank 3 and ckey 3
+first recursive sift!
+sifting on node 0x17714d0 with rank 2 and ckey 3
+first recursive sift!
+sifting on node 0x17713f0 with rank 0 and ckey 3
+set to infinity
+perform rotation to satisfy heap property
+rank: 2, r: 2
+Removed child
+end of sift
+rank: 3, r: 2
+second recursive sift!
+sifting on node 0x17714d0 with rank 2 and ckey 4
+set to infinity
+second rotation needed
+Removed child
+end of sift
+Fixing minlists
+Minimum deleted: 3
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771ae0 SuffixMin: 0x1771ae0
+--[0]{}(3)
+| Head Rank: 1 Addr:0x17719e0 SuffixMin: 0x17719e0
+--[1]{4}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x17718b0 SuffixMin: 0x1771650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{5,4}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+             --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+list at suffix_min 0x1771ae0 is empty
+childcount: 0 rank: 0
+sifting on node 0x1771ab0 with rank 0 and ckey 3
+set to infinity
+Fixing minlists
+Minimum deleted: 4
+Printing heap
+Threshold: 2
+| Head Rank: 1 Addr:0x17719e0 SuffixMin: 0x17719e0
+--[1]{}(4)--[0]{4}(4)
+
+--[0]{5}(5)
+| Head Rank: 2 Addr:0x17718b0 SuffixMin: 0x1771650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{5,4}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+             --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+list at suffix_min 0x17719e0 is empty
+childcount: 1 rank: 1
+sifting on node 0x1771a60 with rank 1 and ckey 4
+first recursive sift!
+sifting on node 0x1771a30 with rank 0 and ckey 4
+set to infinity
+perform rotation to satisfy heap property
+rank: 1, r: 2
+Removed child
+end of sift
+Fixing minlists
+Minimum deleted: 5
+Printing heap
+Threshold: 2
+| Head Rank: 1 Addr:0x17719e0 SuffixMin: 0x1771650
+--[1]{5}(5)
+| Head Rank: 2 Addr:0x17718b0 SuffixMin: 0x1771650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{4}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+           --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+Minimum deleted: 4
+Printing heap
+Threshold: 2
+| Head Rank: 1 Addr:0x17719e0 SuffixMin: 0x1771650
+--[1]{5}(5)
+| Head Rank: 2 Addr:0x17718b0 SuffixMin: 0x1771650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 1
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[0]{1}(1)
+| Head Rank: 1 Addr:0x17719e0 SuffixMin: 0x1771650
+--[1]{5}(5)
+| Head Rank: 2 Addr:0x17718b0 SuffixMin: 0x1771650
+--[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+| Head Rank: 3 Addr:0x1771650 SuffixMin: 0x1771650
+--[3]{}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 3
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{1}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                 --[0]{3}(3)
+
+                      --[1]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 5
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771cf0 SuffixMin: 0x1771b60
+--[0]{5}(5)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{1}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                 --[0]{3}(3)
+
+                      --[1]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 7
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 1 Addr:0x1771cf0 SuffixMin: 0x1771b60
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{1}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                 --[0]{3}(3)
+
+                      --[1]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 9
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771df0 SuffixMin: 0x1771b60
+--[0]{9}(9)
+| Head Rank: 1 Addr:0x1771cf0 SuffixMin: 0x1771b60
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{1}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                 --[0]{3}(3)
+
+                      --[1]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 4
+Melding a queue of rank 0
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771b60
+--[2]{4}(4)--[1]{4}(4)--[0]{4}(4)
+
+           --[0]{9}(9)
+
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{1}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                 --[0]{3}(3)
+
+                      --[1]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+Inserting value 2
+Melding a queue of rank 0
+No melding occured
+Fixing minlists
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771f20 SuffixMin: 0x1771b60
+--[0]{2}(2)
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771b60
+--[2]{4}(4)--[1]{4}(4)--[0]{4}(4)
+
+           --[0]{9}(9)
+
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{1}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                 --[0]{3}(3)
+
+                      --[1]{5}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+Minimum deleted: 1
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771f20 SuffixMin: 0x1771b60
+--[0]{2}(2)
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771b60
+--[2]{4}(4)--[1]{4}(4)--[0]{4}(4)
+
+           --[0]{9}(9)
+
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{}(1)--[3]{1}(1)--[2]{1}(1)--[1]{1}(1)--[0]{1}(1)
+
+                                --[0]{3}(3)
+
+                     --[1]{5}(5)
+
+          --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+          --[1]{8}(8)--[0]{8}(8)
+
+          --[0]{9}(9)
+
+--[3]{}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+list at suffix_min 0x1771b60 is empty
+childcount: 4 rank: 4
+sifting on node 0x1771c70 with rank 4 and ckey 1
+first recursive sift!
+sifting on node 0x1771c40 with rank 3 and ckey 1
+first recursive sift!
+sifting on node 0x1771c10 with rank 2 and ckey 1
+first recursive sift!
+sifting on node 0x1771be0 with rank 1 and ckey 1
+first recursive sift!
+sifting on node 0x1771b30 with rank 0 and ckey 1
+set to infinity
+perform rotation to satisfy heap property
+rank: 1, r: 2
+Removed child
+end of sift
+rank: 2, r: 2
+end of sift
+rank: 3, r: 2
+second recursive sift!
+sifting on node 0x1771c10 with rank 2 and ckey 3
+first recursive sift!
+sifting on node 0x1771be0 with rank 1 and ckey 3
+set to infinity
+perform rotation to satisfy heap property
+rank: 2, r: 2
+Removed child
+end of sift
+end of sift
+rank: 4, r: 2
+end of sift
+Fixing minlists
+Minimum deleted: 2
+Printing heap
+Threshold: 2
+| Head Rank: 0 Addr:0x1771f20 SuffixMin: 0x1771f20
+--[0]{}(2)
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771df0
+--[2]{4}(4)--[1]{4}(4)--[0]{4}(4)
+
+           --[0]{9}(9)
+
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{5,3}(5)--[3]{5,3}(5)--[2]{5,3}(5)
+
+             --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+             --[1]{8}(8)--[0]{8}(8)
+
+             --[0]{9}(9)
+
+--[3]{}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+list at suffix_min 0x1771f20 is empty
+childcount: 0 rank: 0
+sifting on node 0x1771ef0 with rank 0 and ckey 2
+set to infinity
+Fixing minlists
+Minimum deleted: 4
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771df0
+--[2]{}(4)--[1]{4}(4)--[0]{4}(4)
+
+          --[0]{9}(9)
+
+--[1]{5}(5)--[0]{5}(5)
+
+--[0]{7}(7)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{5,3}(5)--[3]{5,3}(5)--[2]{5,3}(5)
+
+             --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+             --[1]{8}(8)--[0]{8}(8)
+
+             --[0]{9}(9)
+
+--[3]{}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+list at suffix_min 0x1771df0 is empty
+childcount: 2 rank: 2
+sifting on node 0x1771ea0 with rank 2 and ckey 4
+first recursive sift!
+sifting on node 0x1771e70 with rank 1 and ckey 4
+first recursive sift!
+sifting on node 0x1771e40 with rank 0 and ckey 4
+set to infinity
+perform rotation to satisfy heap property
+rank: 1, r: 2
+Removed child
+end of sift
+perform rotation to satisfy heap property
+rank: 2, r: 2
+end of sift
+Fixing minlists
+Minimum deleted: 5
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771b60
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{3}(5)--[3]{5,3}(5)--[2]{5,3}(5)
+
+           --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+Minimum deleted: 3
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771b60
+--[2]{5}(5)--[1]{5}(5)--[0]{5}(5)
+
+           --[0]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{}(5)--[3]{5,3}(5)--[2]{5,3}(5)
+
+          --[2]{6}(6)--[1]{6}(6)--[0]{6}(6)
+
+           --[0]{7}(7)
+
+          --[1]{8}(8)--[0]{8}(8)
+
+          --[0]{9}(9)
+
+--[3]{}(5)--[1]{5,4}(5)--[0]{5,4}(5)
+
+          --[0]{6}(6)
+
+--[1]{7}(7)--[0]{7}(7)
+
+--[0]{8}(8)
+deleting min
+list at suffix_min 0x1771b60 is empty
+childcount: 2 rank: 4
+sifting on node 0x1771c70 with rank 4 and ckey 5
+first recursive sift!
+sifting on node 0x1771c40 with rank 3 and ckey 5
+first recursive sift!
+sifting on node 0x1771c10 with rank 2 and ckey 5
+set to infinity
+perform rotation to satisfy heap property
+rank: 3, r: 2
+second recursive sift!
+sifting on node 0x1771960 with rank 2 and ckey 6
+first recursive sift!
+sifting on node 0x1771930 with rank 1 and ckey 6
+first recursive sift!
+sifting on node 0x1771900 with rank 0 and ckey 6
+set to infinity
+perform rotation to satisfy heap property
+rank: 1, r: 2
+Removed child
+end of sift
+rank: 2, r: 2
+end of sift
+Removed child
+end of sift
+perform rotation to satisfy heap property
+rank: 4, r: 2
+end of sift
+Fixing minlists
+list at suffix_min 0x1771b60 is empty
+childcount: 3 rank: 4
+sifting on node 0x1771c70 with rank 4 and ckey 5
+first recursive sift!
+sifting on node 0x1771730 with rank 3 and ckey 5
+first recursive sift!
+sifting on node 0x17715d0 with rank 1 and ckey 5
+first recursive sift!
+sifting on node 0x1771520 with rank 0 and ckey 5
+set to infinity
+perform rotation to satisfy heap property
+rank: 1, r: 2
+Removed child
+end of sift
+rank: 3, r: 2
+second recursive sift!
+sifting on node 0x17715d0 with rank 1 and ckey 6
+set to infinity
+second rotation needed
+Removed child
+end of sift
+rank: 4, r: 2
+end of sift
+Fixing minlists
+Minimum deleted: 5
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771df0
+--[2]{}(5)--[1]{5}(5)--[0]{5}(5)
+
+          --[0]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{7,6}(7)--[3]{7,6}(7)--[0]{7,6}(7)
+
+             --[0]{8}(8)
+
+--[3]{7,6}(7)--[1]{7,6}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+deleting min
+list at suffix_min 0x1771df0 is empty
+childcount: 2 rank: 2
+sifting on node 0x1771ea0 with rank 2 and ckey 5
+first recursive sift!
+sifting on node 0x1771d70 with rank 1 and ckey 5
+first recursive sift!
+sifting on node 0x1771cc0 with rank 0 and ckey 5
+set to infinity
+perform rotation to satisfy heap property
+rank: 1, r: 2
+Removed child
+end of sift
+rank: 2, r: 2
+end of sift
+Fixing minlists
+Minimum deleted: 7
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771b60
+--[2]{7}(7)--[1]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{6}(7)--[3]{7,6}(7)--[0]{7,6}(7)
+
+           --[0]{8}(8)
+
+--[3]{7,6}(7)--[1]{7,6}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+deleting min
+Minimum deleted: 6
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771b60
+--[2]{7}(7)--[1]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{}(7)--[3]{7,6}(7)--[0]{7,6}(7)
+
+          --[0]{8}(8)
+
+--[3]{7,6}(7)--[1]{7,6}(7)
+
+--[1]{8}(8)--[0]{8}(8)
+
+--[0]{9}(9)
+deleting min
+list at suffix_min 0x1771b60 is empty
+childcount: 2 rank: 4
+sifting on node 0x1771c70 with rank 4 and ckey 7
+first recursive sift!
+sifting on node 0x1771730 with rank 3 and ckey 7
+first recursive sift!
+sifting on node 0x1771620 with rank 0 and ckey 7
+set to infinity
+perform rotation to satisfy heap property
+rank: 3, r: 2
+second recursive sift!
+sifting on node 0x17716a0 with rank 0 and ckey 8
+set to infinity
+Removed child and next
+end of sift
+perform rotation to satisfy heap property
+rank: 4, r: 2
+end of sift
+Fixing minlists
+Minimum deleted: 7
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771b60
+--[2]{7}(7)--[1]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{6}(7)--[3]{7,6}(7)--[1]{7,6}(7)
+
+           --[1]{8}(8)--[0]{8}(8)
+
+           --[0]{9}(9)
+
+--[3]{8}(8)
+deleting min
+Minimum deleted: 6
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771b60
+--[2]{7}(7)--[1]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{}(7)--[3]{7,6}(7)--[1]{7,6}(7)
+
+          --[1]{8}(8)--[0]{8}(8)
+
+          --[0]{9}(9)
+
+--[3]{8}(8)
+deleting min
+list at suffix_min 0x1771b60 is empty
+childcount: 2 rank: 4
+sifting on node 0x1771c70 with rank 4 and ckey 7
+first recursive sift!
+sifting on node 0x1771c40 with rank 3 and ckey 7
+first recursive sift!
+sifting on node 0x1771930 with rank 1 and ckey 7
+set to infinity
+perform rotation to satisfy heap property
+rank: 3, r: 2
+second recursive sift!
+sifting on node 0x1771830 with rank 1 and ckey 8
+first recursive sift!
+sifting on node 0x1771800 with rank 0 and ckey 8
+set to infinity
+perform rotation to satisfy heap property
+rank: 1, r: 2
+Removed child
+end of sift
+Removed child
+end of sift
+perform rotation to satisfy heap property
+rank: 4, r: 2
+end of sift
+Fixing minlists
+Minimum deleted: 7
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771df0
+--[2]{}(7)--[1]{7}(7)
+
+--[1]{9}(9)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{8}(8)--[3]{8}(8)
+
+--[3]{9,8}(9)
+deleting min
+list at suffix_min 0x1771df0 is empty
+childcount: 1 rank: 2
+sifting on node 0x1771ea0 with rank 2 and ckey 7
+first recursive sift!
+sifting on node 0x1771d70 with rank 1 and ckey 7
+set to infinity
+perform rotation to satisfy heap property
+rank: 2, r: 2
+Removed child
+end of sift
+Fixing minlists
+Minimum deleted: 8
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771b60
+--[2]{9}(9)
+| Head Rank: 4 Addr:0x1771b60 SuffixMin: 0x1771b60
+--[4]{}(8)--[3]{8}(8)
+
+--[3]{9,8}(9)
+deleting min
+list at suffix_min 0x1771b60 is empty
+childcount: 1 rank: 4
+Rank invarient violated, fix
+Fixing minlists
+Melding a queue of rank 3
+No melding occured
+Fixing minlists
+Minimum deleted: 9
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771f50
+--[2]{9}(9)
+| Head Rank: 3 Addr:0x1771f50 SuffixMin: 0x1771f50
+--[3]{8}(9)
+deleting min
+Minimum deleted: 8
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771f50
+--[2]{9}(9)
+| Head Rank: 3 Addr:0x1771f50 SuffixMin: 0x1771f50
+--[3]{}(9)
+deleting min
+list at suffix_min 0x1771f50 is empty
+childcount: 0 rank: 3
+Rank invarient violated, fix
+Fixing minlists
+Minimum deleted: 9
+Printing heap
+Threshold: 2
+| Head Rank: 2 Addr:0x1771df0 SuffixMin: 0x1771df0
+--[2]{}(9)
+Printing order of delete mins
+1
+3
+2
+3
+4
+5
+4
+1
+2
+4
+5
+3
+5
+7
+6
+7
+6
+7
+8
+9
+8
+9
