@@ -1,89 +1,100 @@
-p
-i 1
-p
-i 2
-p
-i 3
-p
-i 4
-p
-i 5
-p
-i 6
-p
-i 7
-p
-i 8
-p
-i 9
-p
-i 8
-p
-i 7
-p
-i 6
-p
-i 5
-p
-i 4
-p
-i 3
-p
+i 0
+i 0
+i 0
+i 0
+i 0
+i 0
+i 0
+i 0
+i 0
+i 0
+i 0
+i 0
+i 0
+i 0
+i 0
+i 0
+i 10
+i 10
+i 11
+i 11
+i 11
+i 12
+i 12
+i 12
+i 12
+i 12
+i 15
+i 15
+i 17
+i 18
+i 20
+i 20
+i 20
+i 22
+i 22
+i 23
+i 23
+i 24
+i 24
+i 24
+i 25
+i 25
+i 27
+i 27
+i 29
+i 29
+i 30
+i 31
+i 31
+i 32
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
-i 1
-p
-i 3
-p
-i 5
-p
-i 7
-p
-i 9
-p
-i 4
-p
-i 2
-p
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
 d
-p
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d

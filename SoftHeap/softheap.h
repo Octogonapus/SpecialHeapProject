@@ -1,6 +1,6 @@
 /*
  * softheap.c
- * Description: An implementation of the soft heap described ny Bernard
+ * Description: An implementation of the soft heap described by Bernard
  * 	Chazelle in his paper "The Soft Heap: An Approximate Priority 
  *	Queue with Optimal Error Rate". This code is based off of his work.
  *	I take no credit for any of the implementation.
@@ -10,12 +10,10 @@
  * may be missing.
  */
 
-#ifndef __SOFTHEAP_HEADER__
-#define __SOFTHEAP_HEADER__
+#pragma once
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 /* ILCELL stands for Item List Cell. An Item List is a singly linked list of keys */
 typedef struct ILCELL {
@@ -82,5 +80,3 @@ int deletemin(softheap* heap);
 
 /* prints the soft heap */
 void printsoftheap(softheap* heap);
-
-#endif
