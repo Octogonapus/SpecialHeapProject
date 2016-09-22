@@ -6,7 +6,7 @@
 #include <fstream>
 #include <chrono>
 #include <queue>
-#include "softheap.h"
+#include "softheaps.h"
 
 int main(int argc, char** args)
 {

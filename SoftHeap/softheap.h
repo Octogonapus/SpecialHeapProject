@@ -29,8 +29,16 @@ public:
 
 	//Deletes the minimum key from the soft heap
 	Node* sift(Node* v);
+
+	//Deletes the minimum key from the soft heap
+	int deletemin();
+
+	//Prints the soft heap
+	void printSoftHeap();
 private:
 	Head m_header, m_tail;
 	int m_r;
 	static const int INFTY = 999999;
+
+	void printnode(Node* toprint, int spaces, int length);
 };

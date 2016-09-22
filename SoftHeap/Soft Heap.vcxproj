@@ -85,7 +85,6 @@
     <ClInclude Include="softheaps.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="example.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="softheap.cpp" />
     <ClCompile Include="softheaps.cpp" />

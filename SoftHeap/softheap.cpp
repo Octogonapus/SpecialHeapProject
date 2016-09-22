@@ -1,4 +1,5 @@
 #include "softheap.h"
+#include <iostream>
 
 void SoftHeap::insert(const int newKey)
 {
@@ -170,4 +171,119 @@ Node* SoftHeap::sift(Node* v)
 		}
 
 	return v;
+}
+
+int SoftHeap::deletemin()
+{
+	Node *s, *tmp;
+	int min;
+	int childcount;
+	Head *h;
+
+	h = m_header.next->suffix_min;
+
+	/* while the item-list at h is empty */
+	while (h->queue->il == nullptr)
+	{
+
+		tmp = h->queue;
+		childcount = 0;
+
+		/* count the number of children in the soft queue */
+		while (tmp->next != nullptr)
+		{
+			tmp = tmp->next;
+			childcount++;
+		}
+
+		/* check if the rank invarient is violated */
+		if (childcount < h->rank / 2)
+		{
+			/* dismantle the root by melding its children back */
+			h->prev->next = h->next;
+			h->next->prev = h->prev;
+			fixMinlist(h->prev);
+			tmp = h->queue;
+			while (tmp->next != nullptr)
+			{
+				meld(tmp->child);
+				tmp = tmp->next;
+			}
+		}
+
+		/* if the rank invarient holds, we can refill the item list by sifting */
+		else
+		{
+			h->queue = sift(h->queue);
+			if (h->queue->ckey == INFTY)
+			{
+				h->prev->next = h->next;
+				h->next->prev = h->prev;
+				h = h->prev;
+			}
+			fixMinlist(h);
+		}
+
+		/* iterate to the next suffix_min */
+		h = m_header.next->suffix_min;
+	}
+
+	/* grab the minimum */
+	min = h->queue->il->key;
+
+	/* remove the minimum from its item-list */
+	h->queue->il = h->queue->il->next;
+
+	/* update tail pointer if the item-list is now empty */
+	if (h->queue->il == nullptr)
+		h->queue->il_tail = nullptr;
+
+	return min;
+}
+
+void SoftHeap::printSoftHeap()
+{
+	Head *head_tmp;
+	std::cout << "Printing heap\nThreshold: " << m_r << "\n" << std::endl;
+	for (head_tmp = m_header.next; head_tmp != &m_tail; head_tmp = head_tmp->next)
+	{
+		std::cout << "| Head Rank: " << head_tmp->rank << " Addr:" << head_tmp << " SuffixMin: " << head_tmp->suffix_min << "\n" << std::endl;
+		if (head_tmp->queue != nullptr)
+			printnode(head_tmp->queue, 0, 0);
+	}
+}
+
+void SoftHeap::printnode(Node * toprint, int spaces, int length)
+{
+	int i;
+	ILCell *itmp;
+	int addspaces = 0;
+
+	/* add starting spaces */
+	for (i = 0; i < spaces; i++) {
+	}
+	addspaces += 2 + (int)(log10((double)toprint->rank)) + 1;
+
+
+	/* add items */
+	for (itmp = toprint->il; itmp != nullptr; itmp = itmp->next) {
+		addspaces += (int)(log10((double)itmp->key)) + 1;
+		if (itmp->next != nullptr) {
+			addspaces++;
+		}
+	}
+
+	addspaces += 2;
+
+	/* add ckey */
+	addspaces += 2 + (int)(log10((double)toprint->ckey)) + 1;
+
+	/* print the next node */
+
+	if (toprint->next != nullptr) {
+		printnode(toprint->next, 0, length + addspaces + 2);
+	}
+
+	/* print the child */
+	if (toprint->child != nullptr) printnode(toprint->child, length + spaces, 0);
 }
